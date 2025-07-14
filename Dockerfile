@@ -1,10 +1,10 @@
 FROM php:8.1-fpm
 
-# Install Nginx
+# Install Nginx and Supervisor
 RUN apt-get update && apt-get install -y nginx supervisor curl
 
-# Copy PHP app files
-COPY . /var/www/html
+# Copy PHP app files only
+COPY php-app/ /var/www/html/
 
 # Nginx config
 COPY default.conf /etc/nginx/sites-available/default
