@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><?php echo "Hello, World! 🌍"; ?></h1>
-    <p>This is a simple PHP application served via Nginx + PHP-FPM.</p>
+    <h1><?php echo "Hi Raj"; ?></h1>
+    <p>I have created simple PHP application for you, pl check and provide yr feedback.</p>
 </body>
 </html>
