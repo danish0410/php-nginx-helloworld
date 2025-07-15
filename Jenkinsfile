@@ -1,5 +1,5 @@
-@Library('common-lib-nginx@feature') _
-import org.commonlibnginx.*
+@Library('common-lib-unified@feature') _
+import org.commonlibunified.*
 
 pipeline {
   agent any
